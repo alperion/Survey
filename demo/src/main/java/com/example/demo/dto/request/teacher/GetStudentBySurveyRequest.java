@@ -1,0 +1,31 @@
+package com.example.demo.dto.request.teacher;
+
+public class GetStudentBySurveyRequest {
+
+    private String token;
+    private String surveyId;
+
+    public GetStudentBySurveyRequest(String token, String surveyId) {
+        this.token = token;
+        this.surveyId = surveyId;
+    }
+
+    public GetStudentBySurveyRequest() {
+    }
+
+    public String getToken() {
+        return token;
+    }
+
+    public void setToken(String token) {
+        this.token = token;
+    }
+
+    public String getSurveyId() {
+        return surveyId;
+    }
+
+    public void setSurveyId(String surveyId) {
+        this.surveyId = surveyId;
+    }
+}
